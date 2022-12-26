@@ -10,13 +10,13 @@
 
 .form-signin {
     width: 100%;
-    max-width: 360px;
+    max-width: 400px;
     padding: 15px;
     margin: 0 auto;
   }
 
 .school-logo{
-    width: 40%;  
+    width: 36%;  
 }
 
 .Login-Header{
@@ -25,12 +25,30 @@
     color: #004383;
 }
 
+.input-container{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.icon-container{
+  color: white;
+  text-align: center;
+  font-size: 1.5rem;
+  padding-top: 7px;
+  width: 15%;
+  background-color: #004383;
+  border: 1px solid #004383;
+}
+
 .Login-input-field{
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
-    width: 100%;
-    padding: 6px 10px;
-    border: 1px solid #004383;   
+    width: 85%;
+    padding: 7px 10px;  
+    font-size: 1rem;
+    border: 1.5px solid #004383;
+    border-radius: 0 5px 5px 0; 
 }
 
 .Forget-pass{
@@ -46,6 +64,7 @@
     color: white;
     background-color: #004383;
     border: 2px solid #004383;
+    border-radius: 5px;
 }
 
 .Login-btn:hover{
